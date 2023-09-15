@@ -4,9 +4,9 @@ on:
   repository_dispatch:
   release:
     types: published
-  push:
-    branches:
-      - main
+#  push:
+#    branches:
+#      - main
   schedule:
     - cron: 0 */12 * * *
   watch:
@@ -41,7 +41,7 @@ jobs:
       run: |
         cd $GITHUB_WORKSPACE
         chmod +x packages.sh
-        git clone -b packages https://github.com/liuran001/openwrt-packages.git packages
+        git clone -b packages https://github.com/14link/diy-package.git packages
         cd packages
         rm -Rf *
         git rm --cache *
@@ -53,7 +53,13 @@ jobs:
         cd $GITHUB_WORKSPACE/packages
         git add .
         git commit -m "update$(TZ='Asia/Shanghai' date +@%Y%m%d)"
-        git push --quiet "https://${{ secrets.TOKEN }}@github.com/liuran001/openwrt-packages.git"
+        git push --quiet "https://${{ secrets.TOKEN }}@github.com/14link/diy-package.git"
  
 
- 
+     - name: Delete workflow runs
+      uses: Mattraks/delete-workflow-runs@main
+      continue-on-error: true
+      with:
+        retain_days: 1
+        keep_minimum_runs: 3
+
