@@ -1,7 +1,9 @@
 #!/bin/bash
 rm -Rf *
 git rm --cache *
-git_clone https://github.com/sirpdboy/luci-app-netdata.git
+
+#rm -rf luci-app-openclash
+git_clone https://github.com/sirpdboy/luci-app-netdata
 #git_clone https://github.com/sirpdboy/luci-app-autotimeset
 #git_clone https://github.com/esirplayground/luci-app-poweroff
 #git clone --depth 1 https://github.com/sirpdboy/luci-app-poweroffdevice
@@ -24,6 +26,3 @@ rm -rf .github
 rm LICENSE
 mv LICENSE.packages LICENSE
 exit 0
-
-
-
