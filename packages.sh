@@ -3,13 +3,13 @@ rm -Rf *
 git rm --cache *
 
 #rm -rf luci-app-openclash
-git_clone https://github.com/sirpdboy/luci-app-netdata luci-app-netdata
-#git_clone https://github.com/sirpdboy/luci-app-autotimeset
-#git_clone https://github.com/esirplayground/luci-app-poweroff
+git clone https://github.com/sirpdboy/luci-app-netdata
+#git clone https://github.com/sirpdboy/luci-app-autotimeset
+#git clone https://github.com/esirplayground/luci-app-poweroff
 #git clone --depth 1 https://github.com/sirpdboy/luci-app-poweroffdevice
 #git clone --depth 1 https://github.com/sirpdboy/luci-app-autotimeset
 
-git_clone https://github.com/kenzok8/small-package/luci-app-quickstart luci-app-quickstart
+git clone https://github.com/kenzok8/small-package/luci-app-quickstart
 
 
 
