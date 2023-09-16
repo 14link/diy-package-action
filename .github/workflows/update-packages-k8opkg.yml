@@ -1,4 +1,4 @@
-name: Update packages
+name: Update packages-k8opkg
 
 on:
   repository_dispatch:
