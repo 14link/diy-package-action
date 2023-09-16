@@ -1,6 +1,6 @@
 #!/bin/bash
-rm -Rf *
-git rm --cache *
+#rm -Rf *
+#git rm --cache *
 #git clone --depth 1 https://github.com/kiddin9/openwrt-packages && mv -n openwrt-packages/luci-app-bypass openwrt-packages/luci-app-fileassistant ./ ; rm -rf openwrt-packages
 #rm -rf luci-app-openclash
 
