@@ -1,9 +1,9 @@
 #!/bin/bash
-rm -Rf *
-git rm --cache *
+#rm -Rf *
+#git rm --cache *
 #git clone --depth 1 https://github.com/kiddin9/openwrt-packages && mv -n openwrt-packages/luci-app-bypass openwrt-packages/luci-app-fileassistant ./ ; rm -rf openwrt-packages
 #rm -rf luci-app-openclash
-git clone https://github.com/kenzok8/small-package 
+git clone https://github.com/kenzok8/small && mv -n small/* ./ ; rm -rf small
 
 #git clone https://github.com/animegasan/luci-app-quickstart
 #git clone --depth 1 https://github.com/kiddin9/openwrt-packages && mv -n openwrt-packages/luci-app-quickstart  ./ ; rm -rf openwrt-packages
