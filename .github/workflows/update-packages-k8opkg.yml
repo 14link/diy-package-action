@@ -62,5 +62,4 @@ jobs:
         retain_days: 1
         keep_minimum_runs: 3
 
-exit 0
-        [ -e $GITHUB_WORKSPACE/README.md ] && cp $GITHUB_WORKSPACE/README.md $GITHUB_WORKSPACE/packages
+#       [ -e $GITHUB_WORKSPACE/README.md ] && cp $GITHUB_WORKSPACE/README.md $GITHUB_WORKSPACE/packages
