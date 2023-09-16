@@ -1,4 +1,4 @@
-name: Update packages
+name: Update packages-small
 
 on:
   repository_dispatch:
