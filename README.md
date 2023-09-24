@@ -30,7 +30,7 @@
 
 ## 欢迎加入群聊【OP编译交流小组】：(https://jq.qq.com/?_wv=1027&k=Lzxb18xM)
 ## 推广
-- [倾城极速机场](https://qcjs.cc)
+- [机场](https://qcjs.cc)
 
 ## 有问题请发issue，我不上恩山的！！！
 请求加入xxx软件包/问题反馈也请使用issue  
