@@ -17,11 +17,12 @@
 `还是建议按需取用，不然碰到依赖问题不太好解决`
 1. 先cd进package目录，然后执行
 ```bash
- git clone https://github.com/liuran001/openwrt-packages
+ git clone https://github.com/14link/diy-package
 ```
 2. 或者添加下面代码到feeds.conf.default文件
 ```bash
- src-git liuran001_packages https://github.com/liuran001/openwrt-packages
+ src-git diy_packages https://github.com/14link/diy-package
+```
 ```
 3. 先cd进package目录，然后执行
 ```bash
