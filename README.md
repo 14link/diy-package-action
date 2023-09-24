@@ -1,5 +1,3 @@
-# openwrt-packages
-
 ## 食用方式（三选一）：
 `还是建议按需取用，不然碰到依赖问题不太好解决`
 1. 先cd进package目录，然后执行
@@ -24,6 +22,7 @@
 
 [![Stargazers over time](https://starchart.cc/14link/diy-package.svg)](https://starchart.cc/14link/diy-package)
 
+# openwrt-packages
 国内常用 OpenWrt 软件包源码合集，每天自动更新，建议使用 lean 源码
 
 ## 由于 GitHub 会对近期未提交的仓库 Actions 功能进行冻结，如果您发现自动更新出现问题，请在 issues 提出！
