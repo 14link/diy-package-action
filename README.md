@@ -28,9 +28,9 @@
 ## 由于 GitHub 会对近期未提交的仓库 Actions 功能进行冻结，如果您发现自动更新出现问题，请在 issues 提出！
 
 
-## 欢迎加入群聊【OP编译交流小组】：(https://jq.qq.com/?_wv=1027&k=Lzxb18xM)
+## 欢迎加入群聊【OP编译交流小组】：(https://jq.qq.com/?_wv=102&k=Lzxb18xM)
 ## 推广
-- [机场](https://qcjs.cc)
+- [机场](https://qcs.cc)
 
 ## 有问题请发issue，我不上恩山的！！！
 请求加入xxx软件包/问题反馈也请使用issue  
