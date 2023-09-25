@@ -6,7 +6,7 @@
 
 git clone https://github.com/sirpdboy/autosamba
 
-git clone https://github.com/sirpdboy/luci-app-netdata
+#git clone https://github.com/sirpdboy/luci-app-netdata
 #git clone https://github.com/Jason6111/luci-app-netdata
 
 git clone https://github.com/sirpdboy/luci-app-autotimeset
