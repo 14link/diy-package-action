@@ -26,7 +26,6 @@ svn co https://github.com/kenzok8/small-package/trunk/quickstart
 
 #方法二:有点绕路,但殊途同归
 #git clone --depth 1 https://github.com/kenzok8/small-package && mv -n small-package/luci-app-quickstart  small-package/quickstart ./ ; rm -rf small-package
-
 #=============================================================================================
 
 #git clone https://github.com/animegasan/luci-app-quickstart
