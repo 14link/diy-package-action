@@ -38,10 +38,6 @@ svn co https://github.com/kenzok8/small-package/trunk/quickstart
 #git_clone https://github.com/gdck/luci-app-cupsd cupsd1 && mv -n cupsd1/luci-app-cupsd ./ ; rm -rf cupsd1
 
 
-
-
-
-
 rm -rf .svn
 rm -rf ./*/.git
 rm -rf ./*/.svn 
