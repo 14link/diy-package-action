@@ -59,7 +59,7 @@ jobs:
       uses: Mattraks/delete-workflow-runs@main
       continue-on-error: true
       with:
-        retain_days: 1
-        keep_minimum_runs: 3
+        retain_days: 20
+        keep_minimum_runs: 0
 
 #        [ -e $GITHUB_WORKSPACE/README.md ] && cp $GITHUB_WORKSPACE/README.md $GITHUB_WORKSPACE/packages
