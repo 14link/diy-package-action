@@ -26,8 +26,8 @@ svn co https://github.com/kenzok8/small-package/trunk/quickstart
 svn co https://github.com/kiddin9/openwrt-packages/trunk/aria2
 svn co https://github.com/kiddin9/openwrt-packages/trunk/ariang
 svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-aria2
-svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-qbittorrent
-svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-qbittorrent-simple
+#svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-qbittorrent
+#svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-qbittorrent-simple
 
 #svn co https://github.com/sirpdboy/sirpdboy-package/trunk/aria2
 #svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-aria2
