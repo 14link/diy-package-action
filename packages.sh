@@ -4,8 +4,7 @@
 #git clone --depth 1 https://github.com/kiddin9/openwrt-packages && mv -n openwrt-packages/luci-app-bypass openwrt-packages/luci-app-fileassistant ./ ; rm -rf openwrt-packages
 #rm -rf luci-app-openclash
 
-git clone https://github.com/sirpdboy/autosamba
-
+#git clone https://github.com/sirpdboy/autosamba
 #git clone https://github.com/sirpdboy/luci-app-netdata
 #git clone https://github.com/Jason6111/luci-app-netdata
 
@@ -23,9 +22,9 @@ git clone https://github.com/esirplayground/luci-app-poweroff
 #https://github.com/kenzok8/small-package/tree/main/quickstart
 svn co https://github.com/kenzok8/small-package/trunk/luci-app-quickstart
 svn co https://github.com/kenzok8/small-package/trunk/quickstart
-svn co https://github.com/kiddin9/openwrt-packages/trunk/aria2
-svn co https://github.com/kiddin9/openwrt-packages/trunk/ariang
-svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-aria2
+#svn co https://github.com/kiddin9/openwrt-packages/trunk/aria2
+#svn co https://github.com/kiddin9/openwrt-packages/trunk/ariang
+#svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-aria2
 #svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-qbittorrent
 #svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-qbittorrent-simple
 
