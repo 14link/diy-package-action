@@ -60,6 +60,6 @@ jobs:
       uses: Mattraks/delete-workflow-runs@main
       continue-on-error: true
       with:
-        retain_days: 10
+        retain_days: 2
         keep_minimum_runs: 0
 
