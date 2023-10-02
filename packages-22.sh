@@ -6,6 +6,7 @@
 
 git clone https://github.com/sirpdboy/luci-app-autotimeset
 git clone https://github.com/esirplayground/luci-app-poweroff
+git clone https://github.com/QiuSimons/openwrt-mos.git
 git clone https://github.com/linkease/nas-packages-luci.git
 
 #git clone https://github.com/sirpdboy/autosamba
