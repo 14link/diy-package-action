@@ -22,14 +22,14 @@ git clone https://github.com/QiuSimons/openwrt-mos.git
 git clone https://github.com/jerrykuku/luci-theme-argon.git
 git clone https://github.com/jerrykuku/luci-app-argon-config.git
 
-git clone https://github.com/gngpp/luci-theme-design.git theme/luci-theme-design
-git clone https://github.com/gngpp/luci-app-design-config.git theme/luci-theme-design-config
-git clone https://github.com/uparrows/luci-theme-atmaterial.git theme/luci-theme-atmaterial
-git clone https://github.com/kenzok8/luci-theme-ifit.git theme/luci-theme-ifit
-git clone https://github.com/sirpdboy/luci-theme-opentopd.git theme/luci-theme-opentopd
-git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git theme/luci-theme-infinityfreedom
-git clone https://github.com/thinktip/luci-theme-neobird.git theme/luci-theme-neobird
-git clone https://github.com/sirpdboy/luci-theme-kucat.git theme/luci-theme-kucat
+#git clone https://github.com/gngpp/luci-theme-design.git
+#git clone https://github.com/gngpp/luci-app-design-config.git
+#git clone https://github.com/uparrows/luci-theme-atmaterial.git
+#git clone https://github.com/kenzok8/luci-theme-ifit.git
+#git clone https://github.com/sirpdboy/luci-theme-opentopd.git
+#git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git
+git clone https://github.com/thinktip/luci-theme-neobird.git
+git clone https://github.com/sirpdboy/luci-theme-kucat.git
 
 #下面是抽取他人仓库中的某个插件,相当于切片处理
 #=============================================================================================
