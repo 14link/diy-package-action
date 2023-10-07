@@ -7,8 +7,9 @@
 git clone https://github.com/sirpdboy/luci-app-autotimeset
 git clone https://github.com/esirplayground/luci-app-poweroff
 #svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-autotimeset
+
 #DNS
-git clone https://github.com/QiuSimons/openwrt-mos.git
+#git clone https://github.com/QiuSimons/openwrt-mos.git
 #svn co https://github.com/kiddin9/openwrt-packages/trunk/adguardhome
 #svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-adguardhome
 #git clone https://github.com/pymumu/openwrt-smartdns.git
