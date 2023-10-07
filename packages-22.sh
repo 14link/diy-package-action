@@ -19,9 +19,6 @@ git clone https://github.com/QiuSimons/openwrt-mos.git
 #sed -i 's/\<Control\>/System/g' luci-app-autotimeset/luasrc/controller/autotimeset.lua
 
 #Theme
-git clone https://github.com/jerrykuku/luci-theme-argon.git
-git clone https://github.com/jerrykuku/luci-app-argon-config.git
-
 #git clone https://github.com/gngpp/luci-theme-design.git
 #git clone https://github.com/gngpp/luci-app-design-config.git
 #git clone https://github.com/uparrows/luci-theme-atmaterial.git
