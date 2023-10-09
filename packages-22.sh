@@ -20,12 +20,8 @@ git clone https://github.com/esirplayground/luci-app-poweroff
 #sed -i 's/\<Control\>/System/g' luci-app-autotimeset/luasrc/controller/autotimeset.lua
 
 #Theme
-#git clone https://github.com/gngpp/luci-theme-design.git
-#git clone https://github.com/gngpp/luci-app-design-config.git
-#git clone https://github.com/uparrows/luci-theme-atmaterial.git
-#git clone https://github.com/kenzok8/luci-theme-ifit.git
-#git clone https://github.com/sirpdboy/luci-theme-opentopd.git
-#git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git
+git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
+git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
 
 #下面是抽取他人仓库中的某个插件,相当于切片处理
 #=============================================================================================
