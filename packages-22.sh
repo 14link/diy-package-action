@@ -26,8 +26,6 @@ git clone https://github.com/esirplayground/luci-app-poweroff
 #git clone https://github.com/kenzok8/luci-theme-ifit.git
 #git clone https://github.com/sirpdboy/luci-theme-opentopd.git
 #git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git
-git clone https://github.com/thinktip/luci-theme-neobird.git
-git clone https://github.com/sirpdboy/luci-theme-kucat.git
 
 #下面是抽取他人仓库中的某个插件,相当于切片处理
 #=============================================================================================
