@@ -7,7 +7,6 @@
 git clone https://github.com/sirpdboy/luci-app-autotimeset
 git clone https://github.com/esirplayground/luci-app-poweroff
 
-git clone https://github.com/sirpdboy/autosamba
 git clone https://github.com/sirpdboy/luci-app-netdata
 git clone https://github.com/linkease/istore.git
 #git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
