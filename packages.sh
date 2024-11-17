@@ -7,10 +7,14 @@
 git clone https://github.com/sirpdboy/luci-app-autotimeset
 git clone https://github.com/esirplayground/luci-app-poweroff
 
-#git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git package/luci-theme-edge
-#git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git  package/luci-theme-argon-18.06
+git clone https://github.com/sirpdboy/autosamba
+git clone https://github.com/sirpdboy/luci-app-netdata
+git clone https://github.com/linkease/istore.git
 #git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
-git clone https://github.com/thinktip/luci-theme-neobird.git
+git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
+git clone https://github.com/sirpdboy/luci-theme-opentopd.git
+#git clone https://github.com/thinktip/luci-theme-neobird.git
 #git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/luci-theme-opentopd
 #git clone https://github.com/firkerword/luci-app-lucky.git package/lucky
 #git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/openwrt-passwall
