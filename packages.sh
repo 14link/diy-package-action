@@ -13,6 +13,16 @@ git clone https://github.com/esirplayground/luci-app-poweroff
 git clone https://github.com/thinktip/luci-theme-neobird.git package/luci-theme-neobird
 #git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/luci-theme-opentopd
 #git clone https://github.com/firkerword/luci-app-lucky.git package/lucky
+#git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/openwrt-passwall
+#git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall
+
+#merge_package https://github.com/vernesong/OpenClash OpenClash/luci-app-openclash
+#find ./ | grep Makefile | grep v2ray-geodata | xargs rm -f
+#find ./ | grep Makefile | grep mosdns | xargs rm -f
+
+#git clone https://github.com/sbwml/luci-app-mosdns -b v5-lua package/mosdns
+#git clone https://github.com/sbwml/luci-app-dae package/dae
+#git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 
 #git clone https://github.com/linkease/nas-packages.git
 #git clone https://github.com/linkease/nas-packages-luci.git
