@@ -43,7 +43,6 @@ git clone https://github.com/esirplayground/luci-app-poweroff
 #svn co https://github.com/kenzok8/small-package/trunk/luci-app-quickstart
 #svn co https://github.com/kenzok8/small-package/trunk/quickstart
 #svn co https://github.com/kenzok8/small-package/trunk/luci-app-nastools
-svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-quickstart
 
 #svn co https://github.com/kiddin9/openwrt-packages/trunk/aria2
 #svn co https://github.com/kiddin9/openwrt-packages/trunk/ariang
