@@ -7,13 +7,12 @@
 git clone https://github.com/sirpdboy/luci-app-autotimeset
 git clone https://github.com/esirplayground/luci-app-poweroff
 
-git clone https://github.com/sirpdboy/luci-app-netdata
-git clone https://github.com/linkease/istore.git
+#git clone https://github.com/sirpdboy/luci-app-netdata
+#git clone https://github.com/linkease/istore.git
 #git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
-git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
-#git clone https://github.com/thinktip/luci-theme-neobird.git
-#git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/luci-theme-opentopd
+#git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git
+#git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
+
 #git clone https://github.com/firkerword/luci-app-lucky.git package/lucky
 #git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/openwrt-passwall
 #git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall
@@ -43,8 +42,7 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
 #https://github.com/kenzok8/small-package/tree/main/quickstart
 #svn co https://github.com/kenzok8/small-package/trunk/luci-app-quickstart
 #svn co https://github.com/kenzok8/small-package/trunk/quickstart
-svn co https://github.com/kenzok8/small-package/trunk/luci-app-kodexplorer
-#svn co https://github.com/kenzok8/small-package/trunk/luci-app-nastools
+svn co https://github.com/kenzok8/small-package/trunk/luci-app-nastools
 
 #svn co https://github.com/kiddin9/openwrt-packages/trunk/aria2
 #svn co https://github.com/kiddin9/openwrt-packages/trunk/ariang
