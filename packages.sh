@@ -40,8 +40,8 @@ git clone https://github.com/esirplayground/luci-app-poweroff
 #方法一:用svn co命令&&用trunk替换路径中的tree/main
 #https://github.com/kenzok8/small-package/tree/main/luci-app-quickstart
 #https://github.com/kenzok8/small-package/tree/main/quickstart
-svn co https://github.com/kenzok8/small-package/trunk/luci-app-quickstart
-svn co https://github.com/kenzok8/small-package/trunk/quickstart
+#svn co https://github.com/kenzok8/small-package/trunk/luci-app-quickstart
+#svn co https://github.com/kenzok8/small-package/trunk/quickstart
 #svn co https://github.com/kenzok8/small-package/trunk/luci-app-nastools
 
 #svn co https://github.com/kiddin9/openwrt-packages/trunk/aria2
