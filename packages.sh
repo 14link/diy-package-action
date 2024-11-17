@@ -12,7 +12,6 @@ git clone https://github.com/linkease/istore.git
 #git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
 git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
-git clone https://github.com/sirpdboy/luci-theme-opentopd.git
 #git clone https://github.com/thinktip/luci-theme-neobird.git
 #git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/luci-theme-opentopd
 #git clone https://github.com/firkerword/luci-app-lucky.git package/lucky
