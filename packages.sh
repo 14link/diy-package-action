@@ -10,7 +10,7 @@ git clone --depth 1 https://github.com/kenzok8/luci-theme-ifit ifit && mv -n ifi
 
 git clone --depth 1 https://github.com/14link/diy-package readme && mv -n readme/README.md ./;rm -rf readme
 
-svn co https://github.com/kenzok8/small-package/trunk/luci-app-quickstart
+git clone --depth 1 https://github.com/kenzok8/openwrt-packages packages && mv -n packages/luci-app-quickstart ./;rm -rf packages
 
 #git clone https://github.com/sirpdboy/luci-app-netdata
 #git clone https://github.com/linkease/istore.git
