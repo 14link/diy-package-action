@@ -45,7 +45,7 @@ jobs:
         cd packages
         rm -Rf *
         git rm --cache *
-        $GITHUB_WORKSPACE/packages-22.sh
+        $GITHUB_WORKSPACE/packages-leo.sh
 
     - name: Upload
       run: |
