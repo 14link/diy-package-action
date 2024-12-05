@@ -4,16 +4,16 @@
 #git clone --depth 1 https://github.com/kiddin9/openwrt-packages && mv -n openwrt-packages/luci-app-bypass openwrt-packages/luci-app-fileassistant ./ ; rm -rf openwrt-packages
 #rm -rf luci-app-openclash
 
-git clone https://github.com/sirpdboy/luci-app-autotimeset
+git clone https://github.com/linkease/istore.git
 git clone https://github.com/esirplayground/luci-app-poweroff
+git clone https://github.com/sirpdboy/luci-app-autotimeset
 git clone --depth 1 https://github.com/sirpdboy/luci-app-lucky
 git clone --depth 1 https://github.com/sirpdboy/luci-app-partexp
+# Theme
 git clone https://github.com/jerrykuku/luci-theme-argon.git
 git clone --depth 1 https://github.com/jerrykuku/luci-app-argon-config 
 git clone https://github.com/kiddin9/luci-theme-edge.git package/luci-theme-edge
 git clone --depth 1 https://github.com/derisamedia/luci-theme-alpha
-git clone https://github.com/linkease/istore.git
-#
 
 #DNS
 #git clone https://github.com/QiuSimons/openwrt-mos.git
