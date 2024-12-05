@@ -10,6 +10,7 @@ git clone --depth 1 https://github.com/sirpdboy/luci-app-lucky
 git clone --depth 1 https://github.com/sirpdboy/luci-app-partexp
 git clone https://github.com/jerrykuku/luci-theme-argon.git
 git clone --depth 1 https://github.com/jerrykuku/luci-app-argon-config 
+git clone --depth 1 https://github.com/derisamedia/luci-theme-alpha
 
 #DNS
 #git clone https://github.com/QiuSimons/openwrt-mos.git
