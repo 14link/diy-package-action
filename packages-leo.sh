@@ -8,7 +8,8 @@ git clone https://github.com/sirpdboy/luci-app-autotimeset
 git clone https://github.com/esirplayground/luci-app-poweroff
 git clone --depth 1 https://github.com/sirpdboy/luci-app-lucky
 git clone --depth 1 https://github.com/sirpdboy/luci-app-partexp
-#svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-autotimeset
+git clone https://github.com/jerrykuku/luci-theme-argon.git
+git clone --depth 1 https://github.com/jerrykuku/luci-app-argon-config 
 
 #DNS
 #git clone https://github.com/QiuSimons/openwrt-mos.git
