@@ -11,6 +11,7 @@ git clone --depth 1 https://github.com/sirpdboy/luci-app-partexp
 git clone https://github.com/jerrykuku/luci-theme-argon.git
 git clone --depth 1 https://github.com/jerrykuku/luci-app-argon-config 
 git clone --depth 1 https://github.com/derisamedia/luci-theme-alpha
+git clone https://github.com/linkease/istore.git
 
 #DNS
 #git clone https://github.com/QiuSimons/openwrt-mos.git
@@ -77,7 +78,13 @@ rm -rf ./*/*/.github
 exit 0
 
 ==================================================
+下面的代码不加注释也不会被执行
 =============================================================================================
+echo >> feeds.conf.default
+echo 'src-git istore https://github.com/linkease/istore;main' >> feeds.conf.default
+./scripts/feeds update istore
+./scripts/feeds install -d y -p istore luci-app-store
+
 #git clone https://github.com/linkease/istore.git
 #git clone https://github.com/linkease/istore-ui.git
 #git clone https://github.com/firkerword/luci-app-lucky.git
