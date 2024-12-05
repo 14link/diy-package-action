@@ -1,4 +1,4 @@
-name: Update packages-22.03
+name: Update packages-leo
 
 on:
   repository_dispatch:
