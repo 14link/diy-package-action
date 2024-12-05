@@ -40,8 +40,8 @@ jobs:
     - name: Clone packages
       run: |
         cd $GITHUB_WORKSPACE
-        chmod +x packages-22.sh
-        git clone -b 22.03 https://github.com/14link/diy-package.git packages
+        chmod +x packages-leo.sh
+        git clone -b leo https://github.com/14link/diy-package.git packages
         cd packages
         rm -Rf *
         git rm --cache *

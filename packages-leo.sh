@@ -6,6 +6,8 @@
 
 git clone https://github.com/sirpdboy/luci-app-autotimeset
 git clone https://github.com/esirplayground/luci-app-poweroff
+git clone --depth 1 https://github.com/sirpdboy/luci-app-lucky
+git clone --depth 1 https://github.com/sirpdboy/luci-app-partexp
 #svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-autotimeset
 
 #DNS
@@ -28,8 +30,8 @@ git clone https://github.com/esirplayground/luci-app-poweroff
 #方法一:用svn co命令&&用trunk替换路径中的tree/main
 #https://github.com/kenzok8/small-package/tree/main/luci-app-quickstart
 #https://github.com/kenzok8/small-package/tree/main/quickstart
-svn co https://github.com/kenzok8/small-package/trunk/luci-app-quickstart
-svn co https://github.com/kenzok8/small-package/trunk/quickstart
+# svn co https://github.com/kenzok8/small-package/trunk/luci-app-quickstart
+# svn co https://github.com/kenzok8/small-package/trunk/quickstart
 #svn co https://github.com/kiddin9/openwrt-packages/trunk/aria2
 #svn co https://github.com/kiddin9/openwrt-packages/trunk/ariang
 #svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-aria2
@@ -73,11 +75,6 @@ rm -rf ./*/*/.github
 exit 0
 
 ==================================================
-rm -rf feeds/packages/net/v2ray-geodata
-
-
-find ./ | grep Makefile | grep v2ray-geodata | xargs rm -f
-find ./ | grep Makefile | grep mosdns | xargs rm -f
 =============================================================================================
 #git clone https://github.com/linkease/istore.git
 #git clone https://github.com/linkease/istore-ui.git
@@ -86,15 +83,14 @@ find ./ | grep Makefile | grep mosdns | xargs rm -f
 
 #svn co https://github.com/haiibo/openwrt-packages/trunk/cpulimit
 #passwall
-echo "src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git;main" >> "feeds.conf.default"
-echo "src-git passwall https://github.com/xiaorouji/openwrt-passwall.git;main" >> "feeds.conf.default"
-git clone -b packages https://github.com/xiaorouji/openwrt-passwall.git
-git clone https://github.com/xiaorouji/openwrt-passwall.git
+# echo "src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git;main" >> "feeds.conf.default"
+# echo "src-git passwall https://github.com/xiaorouji/openwrt-passwall.git;main" >> "feeds.conf.default"
+
 #svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash
 #git clone https://github.com/fw876/helloworld.git package/ssr
 
-git clone -b master https://github.com/linkease/nas-packages
-git clone -b main https://github.com/linkease/nas-packages-luci
+# git clone -b master https://github.com/linkease/nas-packages
+# git clone -b main https://github.com/linkease/nas-packages-luci
 
 #svn co https://github.com/kiddin9/openwrt-packages/trunk/adguardhome
 #svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-adguardhome
