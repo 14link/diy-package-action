@@ -14,6 +14,7 @@ git clone --depth 1 https://github.com/sirpdboy/luci-app-partexp
 # git clone --depth 1 https://github.com/jerrykuku/luci-app-argon-config 
 git clone https://github.com/kiddin9/luci-theme-edge.git
 git clone --depth 1 https://github.com/derisamedia/luci-theme-alpha
+git clone https://github.com/animegasan/luci-app-alpha-config
 
 #DNS
 #git clone https://github.com/QiuSimons/openwrt-mos.git
