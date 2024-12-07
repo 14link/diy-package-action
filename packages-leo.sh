@@ -16,6 +16,16 @@ git clone https://github.com/kiddin9/luci-theme-edge.git
 git clone --depth 1 https://github.com/derisamedia/luci-theme-alpha
 git clone https://github.com/animegasan/luci-app-alpha-config
 
+rm -rf .svn
+rm -rf ./*/.git
+rm -rf ./*/.svn 
+rm -f .gitattributes .gitignore
+rm -rf .github
+rm LICENSE
+mv LICENSE.packages LICENSE
+
+exit 0
+
 #DNS
 #git clone https://github.com/QiuSimons/openwrt-mos.git
 #svn co https://github.com/kiddin9/openwrt-packages/trunk/adguardhome
@@ -58,16 +68,6 @@ git clone https://github.com/animegasan/luci-app-alpha-config
 #        git_clone https://github.com/sirpdboy/netspeedtest && mv -n netspeedtest/luci-app-netspeedtest ./ ; rm -rf netspeedtest
 #git_clone https://github.com/gdck/luci-app-cupsd cupsd1 && mv -n cupsd1/luci-app-cupsd ./ ; rm -rf cupsd1
 
-
-rm -rf .svn
-rm -rf ./*/.git
-rm -rf ./*/.svn 
-rm -f .gitattributes .gitignore
-rm -rf .github
-rm LICENSE
-mv LICENSE.packages LICENSE
-
-exit 0
 
 rm -rf .svn
 rm -f .gitattributes .gitignore
