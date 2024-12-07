@@ -16,6 +16,8 @@ git clone https://github.com/kiddin9/luci-theme-edge.git
 git clone --depth 1 https://github.com/derisamedia/luci-theme-alpha
 git clone https://github.com/animegasan/luci-app-alpha-config
 
+# ==================================================
+
 rm -rf .svn
 rm -rf ./*/.git
 rm -rf ./*/.svn 

@@ -16,6 +16,8 @@ git clone https://github.com/animegasan/luci-app-alpha-config
 # git clone --depth 1 https://github.com/kenzok8/luci-theme-ifit ifit && mv -n ifit/luci-theme-ifit ./;rm -rf ifit
 # git clone --depth 1 https://github.com/kiddin9/openwrt-packages && mv -n openwrt-packages/luci-app-quickstart  ./ ; rm -rf openwrt-packages
 
+# ==================================================
+
 rm -rf .svn
 rm -rf ./*/.git
 rm -rf ./*/.svn 
