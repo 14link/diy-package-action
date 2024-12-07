@@ -27,6 +27,9 @@ rm LICENSE
 mv LICENSE.packages LICENSE
 exit 0
 
+git clone --depth 1 https://github.com/linkease/nas-packages && mv -n nas-packages/network/services/{ddnsto,quickstart} ./; rm -rf nas-packages
+git clone --depth 1 https://github.com/linkease/nas-packages && mv -n nas-packages/network/services/{ddnsto,linkease,istoreenhance,quickstart} ./; rm -rf nas-packages
+
 # git clone https://github.com/sirpdboy/luci-app-partexp.git
 # git clone --depth 1 https://github.com/kenzok8/luci-theme-ifit ifit && mv -n ifit/luci-theme-ifit ./;rm -rf ifit
 # git clone --depth 1 https://github.com/14link/diy-package readme && mv -n readme/README.md ./;rm -rf readme
