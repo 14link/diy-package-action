@@ -27,6 +27,7 @@ rm LICENSE
 mv LICENSE.packages LICENSE
 exit 0
 
+# ==================================================
 # iStore插件
 git clone --depth 1 https://github.com/linkease/nas-packages && mv -n nas-packages/network/services/{ddnsto,quickstart} ./; rm -rf nas-packages
 git clone --depth 1 https://github.com/linkease/nas-packages && mv -n nas-packages/network/services/{ddnsto,linkease,quickstart} ./; rm -rf nas-packages
