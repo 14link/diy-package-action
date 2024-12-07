@@ -27,8 +27,11 @@ rm LICENSE
 mv LICENSE.packages LICENSE
 exit 0
 
+# istore插件
 git clone --depth 1 https://github.com/linkease/nas-packages && mv -n nas-packages/network/services/{ddnsto,quickstart} ./; rm -rf nas-packages
-git clone --depth 1 https://github.com/linkease/nas-packages && mv -n nas-packages/network/services/{ddnsto,linkease,istoreenhance,quickstart} ./; rm -rf nas-packages
+git clone --depth 1 https://github.com/linkease/nas-packages && mv -n nas-packages/network/services/{ddnsto,linkease,quickstart} ./; rm -rf nas-packages
+git clone --depth 1 https://github.com/linkease/nas-packages-luci && mv -n nas-packages-luci/luci/{luci-app-ddnsto,luci-app-istorex,luci-app-quickstart} ./; rm -rf nas-packages-luci
+git clone --depth 1 https://github.com/linkease/nas-packages-luci && mv -n nas-packages-luci/luci/{luci-app-ddnsto,luci-app-istorex,luci-app-linkease,luci-app-quickstart} ./; rm -rf nas-packages-luci
 
 # git clone https://github.com/sirpdboy/luci-app-partexp.git
 # git clone --depth 1 https://github.com/kenzok8/luci-theme-ifit ifit && mv -n ifit/luci-theme-ifit ./;rm -rf ifit
