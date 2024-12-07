@@ -6,6 +6,21 @@
 
 git clone https://github.com/esirplayground/luci-app-poweroff
 git clone https://github.com/sirpdboy/luci-app-autotimeset
+git clone --depth 1 https://github.com/kenzok8/openwrt-packages packages && mv -n packages/luci-app-quickstart ./;rm -rf packages
+git clone --depth 1 https://github.com/kenzok8/openwrt-packages packages && mv -n packages/quickstart ./;rm -rf packages
+
+# https://github.com/kenzok8/openwrt-packages/tree/master/luci-app-quickstart
+# git clone --depth 1 https://github.com/kenzok8/luci-theme-ifit ifit && mv -n ifit/luci-theme-ifit ./;rm -rf ifit
+# git clone --depth 1 https://github.com/kiddin9/openwrt-packages && mv -n openwrt-packages/luci-app-quickstart  ./ ; rm -rf openwrt-packages
+
+rm -rf .svn
+rm -rf ./*/.git
+rm -rf ./*/.svn 
+rm -f .gitattributes .gitignore
+rm -rf .github
+rm LICENSE
+mv LICENSE.packages LICENSE
+exit 0
 
 # git clone https://github.com/sirpdboy/luci-app-partexp.git
 # git clone --depth 1 https://github.com/kenzok8/luci-theme-ifit ifit && mv -n ifit/luci-theme-ifit ./;rm -rf ifit
@@ -41,7 +56,7 @@ git clone https://github.com/sirpdboy/luci-app-autotimeset
 # git clone -b 18.06 https://github.com/kiddin9/luci-theme-edge package/luci-theme-edge
 
 # 下面是抽取他人仓库中的某个插件,相当于切片处理
-#=============================================================================================
+# =============================================================================================
 # 方法一:用svn co命令&&用trunk替换路径中的tree/main
 # https://github.com/kenzok8/small-package/tree/main/luci-app-quickstart
 # https://github.com/kenzok8/small-package/tree/main/quickstart
@@ -70,11 +85,3 @@ git clone https://github.com/sirpdboy/luci-app-autotimeset
 # git_clone https://github.com/gdck/luci-app-cupsd cupsd1 && mv -n cupsd1/luci-app-cupsd ./ ; rm -rf cupsd1
 
 
-rm -rf .svn
-rm -rf ./*/.git
-rm -rf ./*/.svn 
-rm -f .gitattributes .gitignore
-rm -rf .github
-rm LICENSE
-mv LICENSE.packages LICENSE
-exit 0
