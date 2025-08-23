@@ -9,8 +9,8 @@ git clone https://github.com/sirpdboy/luci-app-autotimeset
 git clone --depth 1 https://github.com/kenzok8/openwrt-packages packages && mv -n packages/luci-app-quickstart ./;rm -rf packages
 git clone --depth 1 https://github.com/kenzok8/openwrt-packages packages && mv -n packages/quickstart ./;rm -rf packages
 
-git clone --depth 1 https://github.com/derisamedia/luci-theme-alpha
-git clone https://github.com/animegasan/luci-app-alpha-config
+# git clone --depth 1 https://github.com/derisamedia/luci-theme-alpha
+# git clone https://github.com/animegasan/luci-app-alpha-config
 
 # https://github.com/kenzok8/openwrt-packages/tree/master/luci-app-quickstart
 # git clone --depth 1 https://github.com/kenzok8/luci-theme-ifit ifit && mv -n ifit/luci-theme-ifit ./;rm -rf ifit
