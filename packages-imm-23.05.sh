@@ -16,9 +16,6 @@ git clone --depth 1 https://github.com/kenzok8/openwrt-packages packages && mv -
 # git clone https://github.com/jerrykuku/luci-theme-argon.git
 # git clone --depth 1 https://github.com/jerrykuku/luci-app-argon-config 
 # git clone https://github.com/kiddin9/luci-theme-edge.git
-# git clone --depth 1 https://github.com/derisamedia/luci-theme-alpha
-# git clone https://github.com/animegasan/luci-app-alpha-config
-
 # ==================================================
 
 rm -rf .svn
