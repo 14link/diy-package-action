@@ -4,7 +4,7 @@
 #git clone --depth 1 https://github.com/kiddin9/openwrt-packages && mv -n openwrt-packages/luci-app-bypass openwrt-packages/luci-app-fileassistant ./ ; rm -rf openwrt-packages
 #rm -rf luci-app-openclash
 
-git clone --depth=1 https://github.com/fw876/helloworld.git
+# git clone --depth=1 https://github.com/fw876/helloworld.git
 # git clone https://github.com/linkease/istore.git
 git clone https://github.com/esirplayground/luci-app-poweroff
 # git clone --depth 1 https://github.com/sirpdboy/luci-app-lucky
