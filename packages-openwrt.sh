@@ -6,6 +6,7 @@
 
 git clone https://github.com/sirpdboy/autosamba
 git clone https://github.com/jerrykuku/luci-theme-argon.git
+git clone https://github.com/jerrykuku/luci-app-argon-config.git
 git clone https://github.com/linkease/istore.git
 git clone https://github.com/esirplayground/luci-app-poweroff
 git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git
