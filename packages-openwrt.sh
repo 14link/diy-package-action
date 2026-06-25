@@ -14,6 +14,11 @@ git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.gi
 git clone --depth 1 https://github.com/sirpdboy/luci-app-partexp
 git clone --depth 1 https://github.com/kenzok8/openwrt-packages packages && mv -n packages/luci-app-quickstart ./;rm -rf packages
 git clone --depth 1 https://github.com/kenzok8/openwrt-packages packages && mv -n packages/quickstart ./;rm -rf packages
+# new proxy
+git clone https://github.com/nikkinikki-org/OpenWrt-nikki.git;main
+git clone https://github.com/nikkinikki-org/OpenWrt-momo.git;main
+git clone https://github.com/daeuniverse/dae.git;main
+git clone https://github.com/daeuniverse/daed.git
 
 # git clone --depth 1 https://github.com/sirpdboy/luci-app-lucky
 # git clone https://github.com/sirpdboy/luci-app-autotimeset
@@ -28,10 +33,10 @@ mv LICENSE.packages LICENSE
 exit 0
 # ==================================================
 # iStore插件
-git clone --depth 1 https://github.com/linkease/nas-packages && mv -n nas-packages/network/services/{ddnsto,quickstart} ./; rm -rf nas-packages
-git clone --depth 1 https://github.com/linkease/nas-packages && mv -n nas-packages/network/services/{ddnsto,linkease,quickstart} ./; rm -rf nas-packages
-git clone --depth 1 https://github.com/linkease/nas-packages-luci && mv -n nas-packages-luci/luci/{luci-app-ddnsto,luci-app-istorex,luci-app-quickstart} ./; rm -rf nas-packages-luci
-git clone --depth 1 https://github.com/linkease/nas-packages-luci && mv -n nas-packages-luci/luci/{luci-app-ddnsto,luci-app-istorex,luci-app-linkease,luci-app-quickstart} ./; rm -rf nas-packages-luci
+# git clone --depth 1 https://github.com/linkease/nas-packages && mv -n nas-packages/network/services/{ddnsto,quickstart} ./; rm -rf nas-packages
+# git clone --depth 1 https://github.com/linkease/nas-packages && mv -n nas-packages/network/services/{ddnsto,linkease,quickstart} ./; rm -rf nas-packages
+# git clone --depth 1 https://github.com/linkease/nas-packages-luci && mv -n nas-packages-luci/luci/{luci-app-ddnsto,luci-app-istorex,luci-app-quickstart} ./; rm -rf nas-packages-luci
+# git clone --depth 1 https://github.com/linkease/nas-packages-luci && mv -n nas-packages-luci/luci/{luci-app-ddnsto,luci-app-istorex,luci-app-linkease,luci-app-quickstart} ./; rm -rf nas-packages-luci
 # ==================================================
 
 # git clone https://github.com/sirpdboy/luci-app-partexp.git
@@ -46,8 +51,6 @@ git clone --depth 1 https://github.com/linkease/nas-packages-luci && mv -n nas-p
 # git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
 
 # git clone https://github.com/firkerword/luci-app-lucky.git package/lucky
-# git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/openwrt-passwall
-# git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall
 
 # merge_package https://github.com/vernesong/OpenClash OpenClash/luci-app-openclash
 # find ./ | grep Makefile | grep v2ray-geodata | xargs rm -f
