@@ -10,6 +10,9 @@ git clone https://github.com/jerrykuku/luci-app-argon-config.git
 git clone https://github.com/linkease/istore.git
 git clone https://github.com/esirplayground/luci-app-poweroff
 git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git
+git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
+git clone https://github.com/rufengsuixing/luci-app-adguardhome.git
+
 
 git clone --depth 1 https://github.com/sirpdboy/luci-app-partexp
 git clone --depth 1 https://github.com/kenzok8/openwrt-packages packages && mv -n packages/luci-app-quickstart ./;rm -rf packages
@@ -39,7 +42,6 @@ exit 0
 # git clone --depth 1 https://github.com/linkease/nas-packages-luci && mv -n nas-packages-luci/luci/{luci-app-ddnsto,luci-app-istorex,luci-app-linkease,luci-app-quickstart} ./; rm -rf nas-packages-luci
 # ==================================================
 
-# git clone https://github.com/sirpdboy/luci-app-partexp.git
 # git clone --depth 1 https://github.com/kenzok8/luci-theme-ifit ifit && mv -n ifit/luci-theme-ifit ./;rm -rf ifit
 # git clone --depth 1 https://github.com/14link/diy-package readme && mv -n readme/README.md ./;rm -rf readme
 # git clone --depth 1 https://github.com/kenzok8/openwrt-packages packages && mv -n packages/luci-app-quickstart ./;rm -rf packages
@@ -53,9 +55,9 @@ exit 0
 # git clone https://github.com/firkerword/luci-app-lucky.git package/lucky
 
 # merge_package https://github.com/vernesong/OpenClash OpenClash/luci-app-openclash
+
 # find ./ | grep Makefile | grep v2ray-geodata | xargs rm -f
 # find ./ | grep Makefile | grep mosdns | xargs rm -f
-
 # git clone https://github.com/sbwml/luci-app-mosdns -b v5-lua package/mosdns
 # git clone https://github.com/sbwml/luci-app-dae package/dae
 # git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
