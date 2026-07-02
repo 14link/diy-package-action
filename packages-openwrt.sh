@@ -47,7 +47,6 @@ exit 0
 # git clone --depth 1 https://github.com/kenzok8/openwrt-packages packages && mv -n packages/luci-app-quickstart ./;rm -rf packages
 
 # git clone https://github.com/sirpdboy/luci-app-netdata
-# git clone https://github.com/linkease/istore.git
 # git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
 # git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git
 # git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
