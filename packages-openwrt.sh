@@ -17,6 +17,7 @@ git clone https://github.com/Openwrt-Passwall/openwrt-passwall-packages.git;main
 git clone https://github.com/Openwrt-Passwall/openwrt-passwall.git;main
 git clone https://github.com/fw876/helloworld.git
 git clone https://github.com/douglarek/luci-app-homeproxy.git
+git clone https://github.com/immortalwrt/homeproxy.git
 
 git clone --depth 1 https://github.com/sirpdboy/luci-app-partexp
 git clone --depth 1 https://github.com/kenzok8/openwrt-packages packages && mv -n packages/luci-app-quickstart ./;rm -rf packages
