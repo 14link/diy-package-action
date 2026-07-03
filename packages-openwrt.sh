@@ -10,7 +10,8 @@ git clone https://github.com/jerrykuku/luci-app-argon-config.git
 git clone https://github.com/linkease/istore.git
 git clone https://github.com/esirplayground/luci-app-poweroff
 git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git
-git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
+#git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
+git clone https://github.com/destan19/OpenAppFilter.git
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git
 
 
