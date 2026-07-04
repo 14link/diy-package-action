@@ -15,8 +15,8 @@ git clone https://github.com/linkease/istore.git
 git clone https://github.com/destan19/OpenAppFilter.git
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git
 
-# new proxy
 git clone --depth=1 https://github.com/fw876/helloworld.git
+# new proxy
 git clone https://github.com/nikkinikki-org/OpenWrt-nikki.git;main ;rm -rf OpenWrt-nikki/mihomo-alpha
 
 # Theme
