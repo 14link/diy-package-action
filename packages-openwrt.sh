@@ -22,6 +22,7 @@ git clone https://github.com/fw876/helloworld.git
 #git clone https://github.com/immortalwrt/homeproxy.git
 #git clone https://github.com/douglarek/luci-app-homeproxy.git
 # new proxy
+# 两个核心 mihomo-alpha是开发版，功能新，但不稳定，删掉！留下meta
 git clone https://github.com/nikkinikki-org/OpenWrt-nikki.git;main ;rm -rf OpenWrt-nikki/mihomo-alpha
 
 # git clone https://github.com/nikkinikki-org/OpenWrt-momo.git;main

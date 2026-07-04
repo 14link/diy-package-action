@@ -17,6 +17,7 @@ git clone https://github.com/rufengsuixing/luci-app-adguardhome.git
 
 git clone --depth=1 https://github.com/fw876/helloworld.git
 # new proxy
+# 两个核心 mihomo-alpha是开发版，功能新，但不稳定，删掉！留下meta
 git clone https://github.com/nikkinikki-org/OpenWrt-nikki.git;main ;rm -rf OpenWrt-nikki/mihomo-alpha
 
 # Theme
