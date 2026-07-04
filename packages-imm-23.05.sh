@@ -12,6 +12,8 @@ git clone --depth 1 https://github.com/sirpdboy/luci-app-partexp
 git clone --depth 1 https://github.com/kenzok8/openwrt-packages packages && mv -n packages/luci-app-quickstart ./;rm -rf packages
 git clone --depth 1 https://github.com/kenzok8/openwrt-packages packages && mv -n packages/quickstart ./;rm -rf packages
 
+# new proxy
+git clone https://github.com/nikkinikki-org/OpenWrt-nikki.git;main ;rm -rf OpenWrt-nikki/mihomo-alpha
 # git clone https://github.com/sirpdboy/luci-app-autotimeset
 # Theme
 # git clone https://github.com/jerrykuku/luci-theme-argon.git
