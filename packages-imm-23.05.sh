@@ -12,7 +12,7 @@ git clone --depth 1 https://github.com/kenzok8/openwrt-packages packages && mv -
 git clone --depth 1 https://github.com/kenzok8/openwrt-packages packages && mv -n packages/quickstart ./;rm -rf packages
 git clone https://github.com/linkease/istore.git
 
-git clone https://github.com/destan19/OpenAppFilter.git
+#git clone https://github.com/destan19/OpenAppFilter.git
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git
 
 git clone --depth=1 https://github.com/fw876/helloworld.git
