@@ -4,19 +4,28 @@
 #git clone --depth 1 https://github.com/kiddin9/openwrt-packages && mv -n openwrt-packages/luci-app-bypass openwrt-packages/luci-app-fileassistant ./ ; rm -rf openwrt-packages
 #rm -rf luci-app-openclash
 
-# git clone --depth=1 https://github.com/fw876/helloworld.git
-# git clone https://github.com/linkease/istore.git
-git clone https://github.com/esirplayground/luci-app-poweroff
 # git clone --depth 1 https://github.com/sirpdboy/luci-app-lucky
+# git clone https://github.com/sirpdboy/luci-app-autotimeset
+# git clone https://github.com/sirpdboy/autosamba
 git clone --depth 1 https://github.com/sirpdboy/luci-app-partexp
 git clone --depth 1 https://github.com/kenzok8/openwrt-packages packages && mv -n packages/luci-app-quickstart ./;rm -rf packages
 git clone --depth 1 https://github.com/kenzok8/openwrt-packages packages && mv -n packages/quickstart ./;rm -rf packages
+git clone https://github.com/linkease/istore.git
 
-# git clone https://github.com/sirpdboy/luci-app-autotimeset
+#git clone https://github.com/destan19/OpenAppFilter.git
+git clone https://github.com/rufengsuixing/luci-app-adguardhome.git
+
+git clone --depth=1 https://github.com/fw876/helloworld.git
+# new proxy
+git clone https://github.com/nikkinikki-org/OpenWrt-nikki.git;main ;rm -rf OpenWrt-nikki/mihomo-alpha
+
 # Theme
 # git clone https://github.com/jerrykuku/luci-theme-argon.git
 # git clone --depth 1 https://github.com/jerrykuku/luci-app-argon-config 
 # git clone https://github.com/kiddin9/luci-theme-edge.git
+
+#git clone https://github.com/esirplayground/luci-app-poweroff
+
 # ==================================================
 
 rm -rf .svn
