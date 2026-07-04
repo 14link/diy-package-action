@@ -24,7 +24,7 @@ git clone --depth 1 https://github.com/kenzok8/openwrt-packages packages && mv -
 git clone --depth 1 https://github.com/kenzok8/openwrt-packages packages && mv -n packages/quickstart ./;rm -rf packages
 # new proxy
 git clone https://github.com/nikkinikki-org/OpenWrt-nikki.git;main
-git clone https://github.com/nikkinikki-org/OpenWrt-momo.git;main
+#git clone https://github.com/nikkinikki-org/OpenWrt-momo.git;main
 
 #git clone https://github.com/daeuniverse/dae.git;main
 #git clone https://github.com/daeuniverse/daed.git
