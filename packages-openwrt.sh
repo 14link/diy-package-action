@@ -4,24 +4,23 @@
 # git clone --depth 1 https://github.com/kiddin9/openwrt-packages && mv -n openwrt-packages/luci-app-bypass openwrt-packages/luci-app-fileassistant ./ ; rm -rf openwrt-packages
 # rm -rf luci-app-openclash
 
+# git clone --depth 1 https://github.com/sirpdboy/luci-app-lucky
+# git clone https://github.com/sirpdboy/luci-app-autotimeset
 git clone https://github.com/sirpdboy/autosamba
-git clone https://github.com/jerrykuku/luci-theme-argon.git
-git clone https://github.com/jerrykuku/luci-app-argon-config.git
+git clone --depth 1 https://github.com/sirpdboy/luci-app-partexp
+git clone --depth 1 https://github.com/kenzok8/openwrt-packages packages && mv -n packages/luci-app-quickstart ./;rm -rf packages
+git clone --depth 1 https://github.com/kenzok8/openwrt-packages packages && mv -n packages/quickstart ./;rm -rf packages
 git clone https://github.com/linkease/istore.git
-git clone https://github.com/esirplayground/luci-app-poweroff
-git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git
+
 #git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 git clone https://github.com/destan19/OpenAppFilter.git
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git
+
 git clone https://github.com/Openwrt-Passwall/openwrt-passwall-packages.git;main
 git clone https://github.com/Openwrt-Passwall/openwrt-passwall.git;main
 git clone https://github.com/fw876/helloworld.git
 #git clone https://github.com/immortalwrt/homeproxy.git
 #git clone https://github.com/douglarek/luci-app-homeproxy.git
-
-git clone --depth 1 https://github.com/sirpdboy/luci-app-partexp
-git clone --depth 1 https://github.com/kenzok8/openwrt-packages packages && mv -n packages/luci-app-quickstart ./;rm -rf packages
-git clone --depth 1 https://github.com/kenzok8/openwrt-packages packages && mv -n packages/quickstart ./;rm -rf packages
 # new proxy
 git clone https://github.com/nikkinikki-org/OpenWrt-nikki.git;main ;rm -rf OpenWrt-nikki/mihomo-alpha
 
@@ -29,8 +28,12 @@ git clone https://github.com/nikkinikki-org/OpenWrt-nikki.git;main ;rm -rf OpenW
 #git clone https://github.com/daeuniverse/dae.git;main
 #git clone https://github.com/daeuniverse/daed.git
 
-# git clone --depth 1 https://github.com/sirpdboy/luci-app-lucky
-# git clone https://github.com/sirpdboy/luci-app-autotimeset
+git clone https://github.com/jerrykuku/luci-theme-argon.git
+git clone https://github.com/jerrykuku/luci-app-argon-config.git
+
+#git clone https://github.com/esirplayground/luci-app-poweroff
+git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git
+
 # ==================================================
 rm -rf .svn
 rm -rf ./*/.git
