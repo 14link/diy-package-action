@@ -26,7 +26,6 @@ git clone --depth 1 https://github.com/kenzok8/openwrt-packages packages && mv -
 git clone https://github.com/nikkinikki-org/OpenWrt-nikki.git;main ;rm -rf OpenWrt-nikki/mihomo-alpha
 
 # git clone https://github.com/nikkinikki-org/OpenWrt-momo.git;main
-
 #git clone https://github.com/daeuniverse/dae.git;main
 #git clone https://github.com/daeuniverse/daed.git
 
