@@ -41,7 +41,7 @@ jobs:
       run: |
         cd $GITHUB_WORKSPACE
         chmod +x packages-wrt.sh
-        git clone openwrt-23.05 https://github.com/14link/immortalwrt.git packages
+        git clone -b openwrt-23.05 https://github.com/14link/immortalwrt.git packages
         cd packages
         rm -Rf *
         git rm --cache *
