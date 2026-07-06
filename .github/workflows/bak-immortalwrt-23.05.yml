@@ -40,12 +40,12 @@ jobs:
     - name: Clone packages
       run: |
         cd $GITHUB_WORKSPACE
-        chmod +x packages-wrt.sh
+        chmod +x imm-wrt-23.05.sh
         git clone -b openwrt-23.05 https://github.com/14link/immortalwrt.git packages
         cd packages
         rm -Rf *
         git rm --cache *
-        $GITHUB_WORKSPACE/packages-wrt.sh
+        $GITHUB_WORKSPACE/imm-wrt-23.05.sh
 
     - name: Upload
       run: |
