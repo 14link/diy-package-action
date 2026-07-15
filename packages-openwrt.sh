@@ -7,7 +7,6 @@
 # git clone --depth 1 https://github.com/sirpdboy/luci-app-lucky
 # git clone https://github.com/sirpdboy/luci-app-autotimeset
 git clone https://github.com/sirpdboy/autosamba
-git clone https://github.com/sirpdboy/luci-app-netdata
 git clone --depth 1 https://github.com/sirpdboy/luci-app-partexp
 
 git clone --depth 1 https://github.com/kenzok8/openwrt-packages packages && mv -n packages/luci-app-quickstart ./;rm -rf packages
